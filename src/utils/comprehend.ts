@@ -1,7 +1,4 @@
 
-//TeamAが実装していたAWSの設定
-//https://github.com/line-api-camp/CAMP1-TeamA/blob/main/src/utils/comprehend.ts
-
 import AWS, { Comprehend, Credentials } from 'aws-sdk';
 
 import {AWS_ACCESS_KEY_ID, AWS_REGION, AWS_SECRET_ACCESS_KEY} from "~/utils/secrets";
